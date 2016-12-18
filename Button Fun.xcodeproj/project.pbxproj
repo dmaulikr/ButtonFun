@@ -12,6 +12,7 @@
 		137633A91E05015B005CF1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137633A71E05015B005CF1DA /* Main.storyboard */; };
 		137633AB1E05015B005CF1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137633AA1E05015B005CF1DA /* Assets.xcassets */; };
 		137633AE1E05015B005CF1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137633AC1E05015B005CF1DA /* LaunchScreen.storyboard */; };
+		137DC51C1E06069200CE24F1 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137DC51B1E06069200CE24F1 /* SquareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		137633AA1E05015B005CF1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		137633AD1E05015B005CF1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137633AF1E05015B005CF1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137DC51B1E06069200CE24F1 /* SquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				137633A31E05015B005CF1DA /* AppDelegate.swift */,
 				137633A51E05015B005CF1DA /* ViewController.swift */,
+				137DC51B1E06069200CE24F1 /* SquareView.swift */,
 				137633A71E05015B005CF1DA /* Main.storyboard */,
 				137633AA1E05015B005CF1DA /* Assets.xcassets */,
 				137633AC1E05015B005CF1DA /* LaunchScreen.storyboard */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					1376339F1E05015B005CF1DA = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = RY4LKVN272;
+						DevelopmentTeam = E59D2Z958U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				137DC51C1E06069200CE24F1 /* SquareView.swift in Sources */,
 				137633A61E05015B005CF1DA /* ViewController.swift in Sources */,
 				137633A41E05015B005CF1DA /* AppDelegate.swift in Sources */,
 			);
@@ -261,7 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RY4LKVN272;
+				DEVELOPMENT_TEAM = E59D2Z958U;
 				INFOPLIST_FILE = "Button Fun/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Button-Fun";
@@ -274,7 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RY4LKVN272;
+				DEVELOPMENT_TEAM = E59D2Z958U;
 				INFOPLIST_FILE = "Button Fun/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Button-Fun";
@@ -302,6 +306,7 @@
 				137633B41E05015B005CF1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
