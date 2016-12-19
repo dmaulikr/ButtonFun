@@ -17,25 +17,25 @@ class SquareView: UIView {
     required init?(coder aDecoder: NSCoder ) {
         super.init(coder: aDecoder)
         guard let layer = self.layer as? CATiledLayer else { return nil }
-        layer.contentsScale = UIScreen.main.scale
+        layer.contentsScale = 40.0
         layer.tileSize = CGSize(width: 40.0, height: 40.0)
     }
     
     override func draw(_ rect: CGRect) {
         
         let context = UIGraphicsGetCurrentContext()
-        var red = CGFloat(drand48())
-        var green = CGFloat(drand48())
-        var blue = CGFloat(drand48())
+        let red = CGFloat(drand48())
+        let green = CGFloat(drand48())
+        let blue = CGFloat(drand48())
         
         context?.setFillColor(red: red, green: green, blue: blue, alpha: 1.0)
         context?.fill(rect)
-        red = CGFloat(drand48())
-        green = CGFloat(drand48())
-        blue = CGFloat(drand48())
-        
     }
 }
+
+
+
+
 
 
 
