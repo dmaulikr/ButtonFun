@@ -37,6 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		136F808F1E0F3C030025BEC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				137DC51B1E06069200CE24F1 /* SquareView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		136F80901E0F3C140025BEC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				137633A51E05015B005CF1DA /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		136F80911E0F3C1E0025BEC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				137633A31E05015B005CF1DA /* AppDelegate.swift */,
+				137633AF1E05015B005CF1DA /* Info.plist */,
+				137633AC1E05015B005CF1DA /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		137633971E05015A005CF1DA = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +82,11 @@
 		137633A21E05015B005CF1DA /* Button Fun */ = {
 			isa = PBXGroup;
 			children = (
-				137633A31E05015B005CF1DA /* AppDelegate.swift */,
-				137633A51E05015B005CF1DA /* ViewController.swift */,
-				137DC51B1E06069200CE24F1 /* SquareView.swift */,
+				136F808F1E0F3C030025BEC8 /* View */,
+				136F80901E0F3C140025BEC8 /* Controller */,
 				137633A71E05015B005CF1DA /* Main.storyboard */,
+				136F80911E0F3C1E0025BEC8 /* Supporting Files */,
 				137633AA1E05015B005CF1DA /* Assets.xcassets */,
-				137633AC1E05015B005CF1DA /* LaunchScreen.storyboard */,
-				137633AF1E05015B005CF1DA /* Info.plist */,
 			);
 			path = "Button Fun";
 			sourceTree = "<group>";
