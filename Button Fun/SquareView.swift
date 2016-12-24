@@ -18,6 +18,8 @@ class SquareView: UIView {
         super.init(coder: aDecoder)
         guard let layer = self.layer as? CATiledLayer else { return nil }
         layer.tileSize = CGSize(width: 40.0, height: 40.0)
+//        
+//        print("I am the layer \(layer.tileSize)")
     }
     
     override func draw(_ rect: CGRect) {
@@ -26,6 +28,9 @@ class SquareView: UIView {
         let red = CGFloat(drand48())
         let green = CGFloat(drand48())
         let blue = CGFloat(drand48())
+        
+        
+//        print("I am the location \(layer.frame))")
         
         context?.setFillColor(red: red, green: green, blue: blue, alpha: 1.0)
         context?.fill(rect)
