@@ -17,7 +17,6 @@ class SquareView: UIView {
     required init?(coder aDecoder: NSCoder ) {
         super.init(coder: aDecoder)
         guard let layer = self.layer as? CATiledLayer else { return nil }
-        layer.contentsScale = 40.0
         layer.tileSize = CGSize(width: 40.0, height: 40.0)
     }
     
